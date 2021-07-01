@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+/* background-color: rgb(252, 239, 239); */
+}
+.centercalcy{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* border: 2px solid red; */
+
+}
+form{
+    width:300px;
+    height:352px;
+    border: 2px solid rgb(43, 41, 41);
+    border-radius: 5px;
+    padding:50px;
+    align-items: center;
+    background-color: grey;
+    box-shadow: 0 0 2px 1px gray;
+}
+.main-num{
+    width:40px;
+    font-size: 2rem;
+    margin-top: 5px;
+    
+    
+    
+}
+#display-answer{
+    width:200px;
+    height:30px;
+    border: none;
+    outline: none;
+    border-radius: 2px;
+}
